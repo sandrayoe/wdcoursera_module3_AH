@@ -2,6 +2,7 @@ body {
   font-size: 16px;
   color: black;
   background-color: white;
+  font-family: "Roboto", sans-serif;
 }
 
 /** HEADER **/
@@ -81,11 +82,25 @@ body {
   margin-bottom: 20px;
 }
 
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  #main-content {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+  }
+}
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   .navbar-brand h1 { /* Restaurant name */
   font-size: 3vw; /* 1vw = 1% of viewport width */
+  }
+
+  #main-content {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
   }
 }
 
