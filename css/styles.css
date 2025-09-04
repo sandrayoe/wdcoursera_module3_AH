@@ -43,6 +43,7 @@ body {
 }
 #nav-list a {
   background-color: #787675;
+  border: 0.5px solid black;
   color: black;
   text-align: center;
   font-size: 1.2em;
