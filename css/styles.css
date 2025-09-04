@@ -48,22 +48,22 @@ body {
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   .navbar-brand h1 { /* Restaurant name */
-  font-size: 4vw; /* 1vw = 1% of viewport width */
+  font-size: 3vw; /* 1vw = 1% of viewport width */
   }
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar-brand h1 { /* Restaurant name */
-  font-size: 4vw; /* 1vw = 1% of viewport width */
+  font-size: 3vw; /* 1vw = 1% of viewport width */
   }
-
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
   .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
     #collapsable-nav a { /* Collapsed nav menu text */
